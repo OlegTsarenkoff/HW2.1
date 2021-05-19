@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24CDA88126541AC900DEB30E /* HW2.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CDA88126541AC900DEB30E /* HW2.1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CDA88426541AC900DEB30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24CDA88626541AC900DEB30E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		24CDA88826541AC900DEB30E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		24CDA88226541AC900DEB30E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24CDA88126541AC900DEB30E /* HW2.1.app */,
+				24CDA88126541AC900DEB30E /* HW2.1.1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24CDA88026541AC900DEB30E /* HW2.1 */ = {
+		24CDA88026541AC900DEB30E /* HW2.1.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24CDA89526541ACF00DEB30E /* Build configuration list for PBXNativeTarget "HW2.1" */;
+			buildConfigurationList = 24CDA89526541ACF00DEB30E /* Build configuration list for PBXNativeTarget "HW2.1.1" */;
 			buildPhases = (
 				24CDA87D26541AC900DEB30E /* Sources */,
 				24CDA87E26541AC900DEB30E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HW2.1;
+			name = HW2.1.1;
 			productName = HW2.1;
-			productReference = 24CDA88126541AC900DEB30E /* HW2.1.app */;
+			productReference = 24CDA88126541AC900DEB30E /* HW2.1.1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24CDA87C26541AC800DEB30E /* Build configuration list for PBXProject "HW2.1" */;
+			buildConfigurationList = 24CDA87C26541AC800DEB30E /* Build configuration list for PBXProject "HW2.1.1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24CDA88026541AC900DEB30E /* HW2.1 */,
+				24CDA88026541AC900DEB30E /* HW2.1.1 */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24CDA87C26541AC800DEB30E /* Build configuration list for PBXProject "HW2.1" */ = {
+		24CDA87C26541AC800DEB30E /* Build configuration list for PBXProject "HW2.1.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CDA89326541ACF00DEB30E /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24CDA89526541ACF00DEB30E /* Build configuration list for PBXNativeTarget "HW2.1" */ = {
+		24CDA89526541ACF00DEB30E /* Build configuration list for PBXNativeTarget "HW2.1.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24CDA89626541ACF00DEB30E /* Debug */,
