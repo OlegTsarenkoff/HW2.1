@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EqU-vk-Lid">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EqU-vk-Lid">
                                 <rect key="frame" x="20" y="64" width="374" height="788"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2p-aX-6G6">
@@ -40,12 +40,6 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="1OV-aZ-oAz" firstAttribute="height" secondItem="W2p-aX-6G6" secondAttribute="height" id="L1D-9f-Dox"/>
-                                    <constraint firstItem="mCI-G6-mev" firstAttribute="height" secondItem="W2p-aX-6G6" secondAttribute="height" id="RAy-EB-KZ3"/>
-                                    <constraint firstItem="1OV-aZ-oAz" firstAttribute="width" secondItem="W2p-aX-6G6" secondAttribute="width" id="laY-kx-roe"/>
-                                    <constraint firstItem="mCI-G6-mev" firstAttribute="width" secondItem="W2p-aX-6G6" secondAttribute="width" id="ntO-kg-kbb"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
