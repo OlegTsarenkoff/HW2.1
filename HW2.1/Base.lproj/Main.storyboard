@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -17,18 +17,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="EqU-vk-Lid">
-                                <rect key="frame" x="20" y="64" width="374" height="788"/>
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMD-ca-phF">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="262.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="259.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPE-bC-sZz">
-                                        <rect key="frame" x="0.0" y="262.66666666666663" width="374" height="262.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="259.5" width="374" height="259"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8qe-IA-1If">
-                                        <rect key="frame" x="0.0" y="525.33333333333337" width="374" height="262.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="518.5" width="374" height="259.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
@@ -37,9 +37,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="EqU-vk-Lid" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="91i-Ku-4xc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EqU-vk-Lid" secondAttribute="trailing" constant="20" id="C6w-gQ-VvG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EqU-vk-Lid" secondAttribute="bottom" constant="10" id="dyT-ib-OIV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EqU-vk-Lid" secondAttribute="bottom" constant="20" id="dyT-ib-OIV"/>
                             <constraint firstItem="EqU-vk-Lid" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="j9e-Yn-j68"/>
                             <constraint firstItem="EqU-vk-Lid" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="p2y-xB-RiT"/>
                         </constraints>
